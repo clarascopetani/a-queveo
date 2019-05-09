@@ -2,19 +2,21 @@
   "name": "que-veo",
   "version": "1.0.0",
   "description": "App para recomendacion de peliculas",
-  "main": "servidor.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "nodemon server.js"
   },
   "author": "Clara Scopetani",
   "license": "ISC",
   "repository": {
     "type": "git",
     "url": "https://github.com/clarascopetani/a-queveo.git"
-  } ,
+  },
   "dependencies": {
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "mysql": "^2.17.1",
+    "nodemon": "^1.19.0"
   }
 }

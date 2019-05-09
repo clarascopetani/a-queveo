@@ -11,6 +11,6 @@ CREATE TABLE `pelicula` (
   `fecha_lanzamiento` date NOT NULL,
   `puntuacion` int(2) NOT NULL,
   `poster` varchar(300) NOT NULL,
-  `trama` varchar(700) NOT NULL,  
+  `trama` varchar(700) NOT NULL,
   PRIMARY KEY (`id`)
 );
