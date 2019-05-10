@@ -95,6 +95,7 @@ function ControladorRecomendaciones() {
     this.pedirRecomendacion = function() {
 
         var self = this;
+       
 
         //se setean los parametros correspondientes para luego ser enviados al servidor.
         var query_params = {};
